@@ -112,12 +112,23 @@ def render_summary(df: pd.DataFrame) -> None:
             st.caption("No places present in the displayed records.")
 
 
-def render_thumbnails(df: pd.DataFrame) -> None:
-    image_rows = df[df["thumbnail_url"].map(has_value)].head(12)
-    if image_rows.empty:
+def render_thumbnails(df: pd.DataFrame, thumbnail_limit: int) -> None:
+    st.subheader("Thumbnails")
+    st.caption(
+        "Page size controls the number of records retrieved from the V&A API. "
+        "Thumbnail limit controls how many records with available image IDs are "
+        "previewed below."
+    )
+
+    if thumbnail_limit == 0:
+        st.info("Thumbnail preview is currently disabled.")
         return
 
-    st.subheader("Thumbnails")
+    image_rows = df[df["thumbnail_url"].map(has_value)].head(thumbnail_limit)
+    if image_rows.empty:
+        st.info("No thumbnail images are available for the current records.")
+        return
+
     columns = st.columns(4)
     for index, (_, row) in enumerate(image_rows.iterrows()):
         with columns[index % 4]:
@@ -154,6 +165,13 @@ def main() -> None:
     st.sidebar.header("Search controls")
     query = st.sidebar.text_input("Search query", value="Etruria").strip() or "Etruria"
     page_size = st.sidebar.slider("Page size", min_value=5, max_value=100, value=45)
+    thumbnail_limit = st.sidebar.slider(
+        "Thumbnail limit",
+        min_value=0,
+        max_value=48,
+        value=12,
+        step=4,
+    )
     images_only = st.sidebar.checkbox("Only records with images", value=False)
 
     st.sidebar.header("Local date filter")
@@ -264,7 +282,7 @@ def main() -> None:
             mime="text/csv",
         )
 
-    render_thumbnails(enriched_df)
+    render_thumbnails(enriched_df, thumbnail_limit)
 
     with st.expander("How to read this prototype"):
         st.markdown(

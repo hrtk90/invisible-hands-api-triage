@@ -8,7 +8,7 @@ The app is related to research questions around craft labour, attribution, place
 
 - Queries the V&A Collections API CSV endpoint.
 - Displays object records and object page links.
-- Shows thumbnails where a `_primaryImageId` is present.
+- Shows thumbnails where a `_primaryImageId` is present, with a sidebar Thumbnail limit slider controlling how many image-bearing records are previewed.
 - Adds a transparent archival tractability score from visible catalogue fields.
 - Adds evidence-status labels and evidence reasons.
 - Recommends archival next steps for follow-up research.
