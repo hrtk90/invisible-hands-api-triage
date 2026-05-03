@@ -158,10 +158,10 @@ def main() -> None:
 
     st.sidebar.header("Local date filter")
     made_after_year = int(
-        st.sidebar.number_input("Made after year", value=1600, step=1)
+        st.sidebar.number_input("Made after year", value=1760, step=1)
     )
     made_before_year = int(
-        st.sidebar.number_input("Made before year", value=1900, step=1)
+        st.sidebar.number_input("Made before year", value=1800, step=1)
     )
     strict_date_filtering = st.sidebar.checkbox(
         "Strict date filtering",
