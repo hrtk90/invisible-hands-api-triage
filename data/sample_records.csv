@@ -1,0 +1,9 @@
+accessionNumber,accessionYear,systemNumber,objectType,_primaryTitle,_primaryPlace,_primaryMaker__name,_primaryMaker__association,_primaryDate,_primaryImageId,_sampleMaterial,_sampleTechnique,_sampleStyle,_currentLocation__displayName,_objectContentWarning,_imageContentWarning
+SAMPLE-001,1775,SAMPLE-O001,Teapot,Illustrative creamware teapot,Etruria,Josiah Wedgwood and Sons,maker,about 1775,SAMPLEIMG001,earthenware,transfer-printing,Neoclassical,Illustrative sample location,,
+SAMPLE-002,1768,SAMPLE-O002,Plate,Illustrative ceramic plate,Staffordshire,,,c. 1768,,earthenware,press-moulding,,Illustrative sample location,,
+SAMPLE-003,1785,SAMPLE-O003,Textile panel,Illustrative silk woven panel,London,,,1780-1790,,silk,weaving,,Illustrative sample location,,
+SAMPLE-004,,SAMPLE-O004,Object,,,,,,,,,,Illustrative sample location,,
+SAMPLE-005,1810,SAMPLE-O005,Tile,Illustrative decorated tile,Britain,,designer,early 19th century,SAMPLEIMG005,ceramic,glazing,,Illustrative sample location,,
+SAMPLE-006,1720,SAMPLE-O006,Silver spoon,Illustrative silver spoon,London,Jane Example,possibly made by,about 1720,,silver,casting,,Illustrative sample location,,
+SAMPLE-007,1650,SAMPLE-O007,Glass fragment,Illustrative coloured glass fragment,Bristol,,,,,glass,,,Illustrative sample location,,
+SAMPLE-008,1790,SAMPLE-O008,Metal mount,Illustrative engraved metal mount,Birmingham,,,late 18th century,,,engraving,,Illustrative sample location,,
