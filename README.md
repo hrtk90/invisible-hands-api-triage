@@ -2,6 +2,8 @@
 
 Invisible Hands: V&A Collections API Research Prototype is an independent Streamlit-based research demonstrator for exploratory work with V&A Collections API metadata. It searches object records through the V&A CSV endpoint, displays catalogue fields, scores records for archival tractability, and recommends potential archival follow-up routes.
 
+**Live demo:** [Open the Streamlit prototype](https://invisible-hands-api-triage.streamlit.app/)
+
 ## What the App Does
 
 - Queries the V&A Collections API CSV endpoint.
@@ -108,4 +110,4 @@ app.py
 7. Deploy.
 8. Test the public URL in an incognito/private browser window.
 
-The deployed app is an optional methodological prototype, not a formal research output. The app should be tested shortly before sharing with a panel because free hosted apps may sleep after inactivity. If the live API is unavailable, use the fallback sample data checkbox to demonstrate the method.
+The deployed app is an optional methodological prototype, not a formal research output. The deployed app should be checked before it is shared or cited in application materials, as free hosted apps may sleep after inactivity. If the live API is unavailable, the fallback sample data provides an illustrative demonstration of the workflow.
