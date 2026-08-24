@@ -1,5 +1,7 @@
 # Invisible Hands: V&A Collections API Research Prototype
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22082885.svg)](https://doi.org/10.5281/zenodo.22082885)
+
 Invisible Hands: V&A Collections API Research Prototype is an independent Streamlit-based research demonstrator for exploratory work with V&A Collections API metadata. It searches object records through the V&A CSV endpoint, displays catalogue fields, scores records for archival tractability, and recommends potential archival follow-up routes.
 
 **Live demo:** [Open the Streamlit prototype](https://invisible-hands-api-triage.streamlit.app/)
