@@ -17,6 +17,11 @@ url: "https://invisible-hands-api-triage.streamlit.app/"
 
 license: MIT
 
+identifiers:
+  - description: "Version DOI for v1.0.0."
+    type: doi
+    value: "10.5281/zenodo.22082885"
+
 keywords:
   - "digital humanities"
   - "digital heritage"
