@@ -148,11 +148,11 @@ def render_thumbnails(df: pd.DataFrame, thumbnail_limit: int) -> None:
 
 def main() -> None:
     st.set_page_config(
-        page_title="Invisible Hands API Triage",
+        page_title="Invisible Hands: V&A Collections API Research Prototype",
         layout="wide",
     )
 
-    st.title("Invisible Hands API Triage")
+    st.title("Invisible Hands: V&A Collections API Research Prototype")
     st.subheader("A V&A Collections API prototype for labour-visibility research")
     st.info(
         "This prototype uses V&A Collections API metadata to identify catalogue "
