@@ -78,9 +78,9 @@ app.py
 
 No credentials, API keys, passwords, or `secrets.toml` file are required.
 
-## Panel-facing use
+## Research Scope and Intended Use
 
-This prototype should be treated as an optional demonstration of method rather than a formal research output. It is intended to show how V&A Collections API metadata can support first-stage archival triage by making catalogue clues, evidence gaps, and follow-up routes more explicit.
+This prototype is a methodological demonstrator rather than a formal research output. It tests how V&A Collections API metadata can support first-stage archival triage by making catalogue-supported clues, documentation gaps, and potential follow-up routes more explicit. Its outputs are intended to support, not replace, close object study and archival research.
 
 ## Run Tests on Windows
 
