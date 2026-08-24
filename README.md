@@ -80,7 +80,7 @@ No credentials, API keys, passwords, or `secrets.toml` file are required.
 
 ## Research Scope and Intended Use
 
-This prototype is a methodological demonstrator rather than a formal research output. It tests how V&A Collections API metadata can support first-stage archival triage by making catalogue-supported clues, documentation gaps, and potential follow-up routes more explicit. Its outputs are intended to support, not replace, close object study and archival research.
+This prototype tests how V&A Collections API metadata can support first-stage archival triage by making catalogue-supported clues, documentation gaps, and potential follow-up routes more explicit. Its outputs support close object study and archival research by providing a structured exploratory layer for collections-data analysis.
 
 ## Run Tests on Windows
 
