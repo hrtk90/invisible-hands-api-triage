@@ -153,7 +153,7 @@ def main() -> None:
     )
 
     st.title("Invisible Hands: V&A Collections API Research Prototype")
-    st.subheader("A V&A Collections API prototype for labour-visibility research")
+    st.subheader("An exploratory collections-data prototype for archival triage and documentation research")
     st.info(
         "This prototype uses V&A Collections API metadata to identify catalogue "
         "records that may be useful starting points for archival research into "
