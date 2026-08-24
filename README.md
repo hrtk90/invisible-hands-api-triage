@@ -111,3 +111,9 @@ app.py
 8. Test the public URL in an incognito/private browser window.
 
 The deployed app should be checked before it is shared or cited in application materials, as free hosted apps may sleep after inactivity. If the live API is unavailable, the fallback sample data provides an illustrative demonstration of the workflow.
+
+## License
+
+The source code in this repository is available under the MIT License.
+
+V&A collections data accessed through the API remains subject to the V&A's applicable terms of use.
