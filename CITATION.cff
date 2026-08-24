@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+
+title: "Invisible Hands: V&A Collections API Research Prototype"
+type: software
+
+authors:
+  - family-names: "Yu"
+    given-names: "Shang"
+
+abstract: "An independent Streamlit research prototype using V&A Collections API metadata to support archival triage, documentation analysis, and exploratory collections research."
+
+repository-code: "https://github.com/hrtk90/invisible-hands-api-triage"
+url: "https://invisible-hands-api-triage.streamlit.app/"
+
+license: MIT
+
+keywords:
+  - "digital humanities"
+  - "digital heritage"
+  - "museum collections"
+  - "metadata"
+  - "archival research"
+  - "Streamlit"
+  - "Python"
