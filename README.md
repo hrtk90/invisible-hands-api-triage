@@ -2,8 +2,6 @@
 
 Invisible Hands: V&A Collections API Research Prototype is an independent Streamlit-based research demonstrator for exploratory work with V&A Collections API metadata. It searches object records through the V&A CSV endpoint, displays catalogue fields, scores records for archival tractability, and recommends potential archival follow-up routes.
 
-The app is related to research questions around craft labour, attribution, place, material process, technique, and documentation gaps in the context of the AHRC CDP project "Invisible Hands: Migrant Labour and British Craft in the Long Eighteenth Century" at UCL and the V&A.
-
 ## What the App Does
 
 - Queries the V&A Collections API CSV endpoint.
