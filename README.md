@@ -1,4 +1,4 @@
-# Invisible Hands API Triage
+# Invisible Hands: V&A Collections API Research Prototype
 
 Invisible Hands API Triage is a small methodological prototype and Streamlit research demonstrator for working with V&A Collections API metadata. It searches object records through the V&A CSV endpoint, displays catalogue fields, scores records for archival tractability, and recommends next archival follow-up steps.
 
