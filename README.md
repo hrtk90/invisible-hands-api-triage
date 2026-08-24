@@ -110,4 +110,4 @@ app.py
 7. Deploy.
 8. Test the public URL in an incognito/private browser window.
 
-The deployed app is an optional methodological prototype, not a formal research output. The deployed app should be checked before it is shared or cited in application materials, as free hosted apps may sleep after inactivity. If the live API is unavailable, the fallback sample data provides an illustrative demonstration of the workflow.
+The deployed app should be checked before it is shared or cited in application materials, as free hosted apps may sleep after inactivity. If the live API is unavailable, the fallback sample data provides an illustrative demonstration of the workflow.
