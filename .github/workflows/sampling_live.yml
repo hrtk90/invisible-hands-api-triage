@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - sampling-live-20260915
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
